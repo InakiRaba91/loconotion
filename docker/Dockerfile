@@ -6,7 +6,7 @@ RUN apt-get update
 RUN apt-get install -y libgconf-2-4 wget xvfb unzip
 
 # Version of chrome and chromedriver
-ENV CHROME_VERSION 116.0.5845.179-1
+ENV CHROME_VERSION 116.0.5845.187-1
 ENV CHROMEDRIVER_VERSION 116.0.5845.96
 
 # Install chrome
